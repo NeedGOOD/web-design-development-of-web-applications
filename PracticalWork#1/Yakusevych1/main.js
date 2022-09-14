@@ -1,0 +1,1 @@
+document.write("<i>Я вчуся програмувати на мові <b>JavaScript</b>.</i>");
