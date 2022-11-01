@@ -3,16 +3,12 @@ let sum = 0;
 while (true) {
     let integer = Number(prompt('Введіть ціле число'));
     
-    if (integer == 0) {
-        break;
-    }
+    if (integer == 0) { break; }
 
     let prime = true;
 
     for (let i = 2; i < integer; ++i) {
-        if (integer % i == 0) {
-            prime = false;
-        }
+        if (integer % i == 0) { prime = false; }
     }
 
     if (prime == true) {
@@ -24,4 +20,4 @@ while (true) {
         sum += number;
     }
 }
-document.write("sum = " + sum);
+document.write("Sum = " + sum);
