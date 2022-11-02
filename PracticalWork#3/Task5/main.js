@@ -1,6 +1,5 @@
 function ArraySort(arr) {
-    var name = arr.slice();
-    return name.sort();
+    return arr.slice().sort();
 }
 
 var array = ["HTML", "JavaScript", "CSS"];
