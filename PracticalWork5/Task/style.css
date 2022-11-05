@@ -36,7 +36,7 @@ h1 {
 .body {
     display: flex;
 
-    height: 75px;
+    height: 90px;
 }
 
 button {
@@ -61,4 +61,9 @@ button {
 
 .three {
     width: 250px;
+}
+
+.input {
+    width: 73.77px;
+    margin-inline: 2px;
 }
