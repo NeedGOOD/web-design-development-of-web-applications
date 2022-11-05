@@ -11,13 +11,13 @@ while (true) {
         if (integer % i == 0) { prime = false; }
     }
 
-    if (prime == true) {
+    if (prime) {
         alert(integer + " - це просте число");
 
         let number = 0;
         number = integer;
         
         sum += number;
-    }
+    } else { alert(integer + " - це не просте число")}
 }
 document.write("Sum = " + sum);

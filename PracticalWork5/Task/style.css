@@ -8,16 +8,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.box {
-    border-style: solid;
-    border-color: #aaaaaa;
-    border-width: 1px;
-}
-
-.text {
-    font-weight: bolder;
-}
-
 .head {
     display: flex;
 }
@@ -39,20 +29,22 @@ h1 {
     height: 90px;
 }
 
-button {
-    margin: 2px;
+.body .one {
+    display: flex;
+}
+
+.box {
+    border-style: solid;
+    border-color: #aaaaaa;
+    border-width: 1px;
 }
 
 .one {
     width: 380px;
 }
 
-.body .one {
-    display: flex;
-}
-
-.body .one div {
-    margin-inline: 5px;
+.one div {
+    margin-left: 5px;
 }
 
 .two {
@@ -63,7 +55,12 @@ button {
     width: 250px;
 }
 
-.input {
+button {
+    margin: 2px;
+}
+
+input {
     width: 73.77px;
     margin-inline: 2px;
+    margin-bottom: 1px;
 }

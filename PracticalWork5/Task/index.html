@@ -15,8 +15,8 @@
     </div>
     <div class="body">
         <div class="box one">
-            <div class="text">Завдання №1.</div>
-            <div>Виведення поточної дати та часу</div>
+            <div><b>Завдання №1.</b>
+            Виведення поточної дати та часу</div>
         </div>
         <div class="box two">
             <button onclick="NowDate()">Виконати</button>
@@ -25,8 +25,8 @@
     </div>
     <div class="body">
         <div class="box one">
-            <div class="text">Завдання №2.</div>
-            <div>Виведення дня тижня</div>
+            <div><b>Завдання №2.</b>
+            Виведення дня тижня</div>
         </div>
         <div class="box two">
             <button onclick="DayDate(nowDate)">Виконати</button>
@@ -35,30 +35,41 @@
     </div>
     <div class="body">
         <div class="box one">
-            <div class="text">Завдання №3.</div>
-            <div>Виведення N кількість днів назад</div>
+            <div><b>Завдання №3.</b>
+            Виведення N кількість днів назад</div>
         </div>
         <div class="box two">
             <button onclick="ChangedDay()">Виконати</button>
-            <input class="input" type="text" id="daysAgo">
+            <input type="text" id="daysAgo">
         </div>
         <div class="box three" id="third-block"></div>
     </div>
     <div class="body">
         <div class="box one">
-            <div class="text">Завдання №4.</div>
-            <div>Виведення останнього дня тижня</div>
+            <div><b>Завдання №4.</b>
+            Виведення останнього дня тижня</div>
         </div>
         <div class="box two">
             <button onclick="LastDay()">Виконати</button>
-            <input class="input" type="text" id="infoYears">
-            <input class="input" type="text" id="infoMonth">
+            <input type="text" id="infoYears">
+            <input type="text" id="infoMonth">
         </div>
         <div class="box three" id="fourth-block"></div>
+    </div>
+    <div class="body">
+        <div class="box one">
+            <div><b>Завдання №5.</b>
+            Виведення пройшовшого і залишилося секунд</div>
+        </div>
+        <div class="box two">
+            <button onclick="SecondsPassed()">Виконати</button>
+        </div>
+        <div class="box three" id="fifth-block"></div>
     </div>
     <script src="./Task1/main.js"></script>
     <script src="./Task2/main.js"></script>
     <script src="./Task3/main.js"></script>
     <script src="./Task4/main.js"></script>
+    <script src="./Task5/main.js"></script>
 </body>
 </html>
