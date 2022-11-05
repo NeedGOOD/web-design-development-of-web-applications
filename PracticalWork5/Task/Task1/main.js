@@ -1,4 +1,4 @@
-function InfoTimes() {
+function NowDate() {
     let nowDate = new Date();
 
     let month = "";
