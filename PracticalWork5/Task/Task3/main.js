@@ -28,7 +28,7 @@ function ChangedDay() {
 
     let elem = document.getElementById('third-block');
 
-    date.setTime(date.getTime() - 24 * 60 *  60 * 1000 * Number(document.getElementById('daysAgo').value));
+    date.setTime(date.getTime() - 24 * 60 * 60 * 1000 * Number(document.getElementById('daysAgo').value));
     
     elem.innerHTML = `${week} ${month} ${date.getDate()} ${date.getFullYear()}`;
 }

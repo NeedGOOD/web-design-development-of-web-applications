@@ -7,7 +7,7 @@ elem.addEventListener("click", function () {
     let age = 'Вік: ';
     let millennium = 'Тисячоліття: ';
 
-    var number = Math.trunc(year / 100) * 100;;
+    var number = Math.trunc(year / 100) * 100;
 
     number = year - number;
 
